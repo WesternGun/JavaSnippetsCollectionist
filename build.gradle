@@ -1,6 +1,21 @@
+buildscript {
+    ext {
+        springBootVersion = '2.1.1.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+apply from: "./gradle/jacoco.gradle"
 
 idea {
     module {
@@ -20,14 +35,26 @@ repositories {
 
 dependencies {
     testCompile         group: 'junit', name: 'junit', version: '4.12'
+    // spring boot
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.security:spring-security-test'
     // code
     // official way of importing Lombok
     // If without version, it has to be managed by Spring Boot dependency plugin, I guess?
     compileOnly         'org.projectlombok:lombok:1.18.6'
     annotationProcessor 'org.projectlombok:lombok:1.18.6'
+    // wiremock without other dependencies
+    testCompile('com.github.tomakehurst:wiremock-jre8-standalone:2.21.0')
+    // swagger
+    compile("io.springfox:springfox-swagger2:2.9.1")
+    compile("io.springfox:springfox-swagger-ui:2.9.1")
     // for @Slf4j to work, you have to add LogBack; very recent versions as 2019
-    compile 'org.slf4j:slf4j-api:1.7.25'
-    compile 'ch.qos.logback:logback-classic:1.2.3'
+    // when we use spring boot, not need to add these lines; only needed when is standard Java project
+    //compile 'org.slf4j:slf4j-api:1.7.25'
+    //compile 'ch.qos.logback:logback-classic:1.2.3'
 }
 
 // disable "doclint" in Java 8 to avoid strict Javadoc check
@@ -37,4 +64,9 @@ if (JavaVersion.current().isJava8Compatible()) {
             options.addStringOption('Xdoclint:none', '-quiet')
         }
     }
+}
+
+// generate executable JAR for pipeline
+bootJar {
+    launchScript()
 }
