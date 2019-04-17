@@ -10,6 +10,5 @@ public class OSUtilsTest {
     @Test
     public void shouldPrintAllSystemProperties() {
         OSUtils.printAllSystemProps();
-        System.out.println("OK!");
     }
 }
