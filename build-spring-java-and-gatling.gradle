@@ -1,0 +1,130 @@
+buildscript {
+    ext {
+        springBootVersion = '2.1.2.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.8'
+    }
+}
+
+
+plugins {
+    id 'org.springframework.boot' version '2.1.5.RELEASE'
+    id 'java'
+    id 'com.google.protobuf' version '0.8.8'
+    id "com.github.lkishalmi.gatling" version "3.0.2"
+}
+
+protobuf {
+    protoc {
+        artifact = "com.google.protobuf:protoc:3.7.1"
+    }
+    plugins {
+        grpc {
+            artifact = 'io.grpc:protoc-gen-grpc-java:1.20.0'
+        }
+    }
+    generatedFilesBaseDir = "$projectDir/src"
+    generateProtoTasks {
+        all()*.plugins {
+            grpc {
+                // Write the generated files under
+                // "$generatedFilesBaseDir/$sourceSet/proto"
+                outputSubDir = 'java/'
+            }
+        }
+    }
+    //generatedFilesBaseDir = "$projectDir/src"
+}
+
+apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'scala'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+
+group = 'com.venteprivee.grpc'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+sourceSets {
+    main {
+        proto {
+            // In addition to the default 'src/main/proto'
+            srcDir 'src/main/resources/protos'
+            // In addition to the default '**/*.proto' (use with caution).
+            // Using an extension other than 'proto' is NOT recommended,
+            // because when proto files are published along with class files, we can
+            // only tell the type of a file from its extension.
+            include '**/*.protodevel'
+        }
+    }
+    test {
+        proto {
+            // In addition to the default 'src/test/proto'
+            srcDir 'src/test/resources/protos'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // gRPC
+    compile 'io.grpc:grpc-netty-shaded:1.20.0'
+    compile 'io.grpc:grpc-protobuf:1.20.0'
+    compile 'io.grpc:grpc-stub:1.20.0'
+    compile group: 'com.google.protobuf', name: 'protobuf-gradle-plugin', version: '0.8.8'
+
+    // spring
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    // lombok
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    // testing
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'junit', module: 'junit' //by both name and group
+    }
+    testImplementation 'org.springframework.security:spring-security-test'
+    // junit 5
+    testImplementation ('org.junit.jupiter:junit-jupiter-api')
+    testCompile ('org.junit.jupiter:junit-jupiter-params')
+    testRuntime ('org.junit.jupiter:junit-jupiter-engine')
+    testCompile ('org.mockito:mockito-junit-jupiter')
+    test.useJUnitPlatform() // fix "test events not received" bug in IDEA
+
+    // gatling
+    compile "org.scala-lang:scala-library:2.12.8"
+    testImplementation "io.gatling.highcharts:gatling-charts-highcharts:3.0.2"
+    testImplementation group: 'io.gatling', name: 'gatling-core', version: '3.0.2'
+    testImplementation group: 'io.gatling', name: 'gatling-app', version: '3.0.2'
+    testImplementation group: 'io.gatling', name: 'gatling-http', version: '3.0.2'
+    testImplementation group: 'com.fasterxml.jackson.module', name:'jackson-module-scala_2.12', version: '2.9.8'
+    // gatling for grpc
+    testImplementation group: 'com.github.phisgr', name: 'gatling-grpc_2.12', version: '0.3.0'
+}
+
+
+gatlingRun.doFirst {
+    systemProperties.remove('java.endorsed.dirs')
+}
+
+gatling {
+    scalaVersion = '2.12.8'
+    toolVersion = '3.0.2'
+}

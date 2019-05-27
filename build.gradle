@@ -70,3 +70,8 @@ if (JavaVersion.current().isJava8Compatible()) {
 bootJar {
     launchScript()
 }
+
+// fix "test events not received" bug in IDEA
+test {
+    useJUnitPlatform()
+}
