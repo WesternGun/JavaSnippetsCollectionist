@@ -51,7 +51,7 @@ dependencies {
     // swagger
     compile("io.springfox:springfox-swagger2:2.9.1")
     compile("io.springfox:springfox-swagger-ui:2.9.1")
-    // for @Slf4j to work, you have to add LogBack; very recent versions as 2019
+    // for @Slf4j to work, you have to add LogBack; 1.2.3 is very recent versions as 2019
     // when we use spring boot, not need to add these lines; only needed when is standard Java project
     //compile 'org.slf4j:slf4j-api:1.7.25'
     //compile 'ch.qos.logback:logback-classic:1.2.3'

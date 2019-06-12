@@ -13,7 +13,8 @@ public class PatternChecker {
             // ignore case
             Pattern.CASE_INSENSITIVE,
             // tell compiler to match "." with any character, including line terminator
-            Pattern.DOTALL};
+            Pattern.DOTALL
+    };
 
     /**
      * Check if the content contains a substring, with flags commonly used, i.e.,
@@ -25,11 +26,11 @@ public class PatternChecker {
      * @return if the content starts with the substring
      */
     public static boolean findWithCommonFlags(String substring, String content) {
-        return findWithFlags(substring, content, COMMON_FLAGS);
+        return findWithFlags(escapeMetaCharacters(substring), content, COMMON_FLAGS);
     }
 
     public static boolean findWithFlags(String substring, String content, int[] flags) {
-        Matcher matcher = getMatcherWithFlags(substring, content, flags);
+        Matcher matcher = getMatcherWithFlags(escapeMetaCharacters(substring), content, flags);
         return matcher.find();
     }
     /**
@@ -42,11 +43,11 @@ public class PatternChecker {
      * @return if the content starts with the substring
      */
     public static boolean startWithCommonFlags(String substring, String content) {
-        return startsWithFlags(substring, content, COMMON_FLAGS);
+        return startsWithFlags(escapeMetaCharacters(substring), content, COMMON_FLAGS);
     }
 
     public static boolean startsWithFlags(String substring, String content, int[] flags) {
-        Matcher matcher = getMatcherWithFlags(substring, content, flags);
+        Matcher matcher = getMatcherWithFlags(escapeMetaCharacters(substring), content, flags);
         return matcher.lookingAt();
     }
     /**
@@ -124,9 +125,54 @@ public class PatternChecker {
      */
     private static int applyUnixLineModeIfNeeded(int flag) {
         String osName = (String) System.getProperties().get("os.name");
-        boolean isUnix = OSUtils.isUnixLinux();
-        log.debug("OS name is: {}, is UNIX: {}", osName, isUnix);
+        boolean isUnix = osName.toLowerCase().contains("linux")
+                || osName.toLowerCase().contains("unix");
+        log.trace("OS name is: {}, is UNIX: {}", osName, isUnix);
         return  isUnix ? (flag | Pattern.UNIX_LINES) : flag;
     }
 
+    /**
+     * <p>Escape special characters in a string which is not regex. </p>
+     * <p>No need to escape "]" and "}". </p>
+     * <p>They are: </p>
+     * <ul>
+     *     <li><</li>
+     *     <li>></li>
+     *     <li>(</li>
+     *     <li>)</li>
+     *     <li>[</li>
+     *     <li>{</li>
+     *     <li>^</li>
+     *     <li>-</li>
+     *     <li>=</li>
+     *     <li>$</li>
+     *     <li>!</li>
+     *     <li>|</li>
+     *     <li>?</li>
+     *     <li>*</li>
+     * </ul>
+     * @param literal the string containing special characters
+     * @return the escaped literal
+     */
+    private String escapeMetaCharacters(String literal) {
+        return literal.replaceAll("<", "\\<")
+                .replaceAll(">", "\\>")
+                .replaceAll("\\(", "\\\\(")
+                .replaceAll("\\)", "\\\\)")
+                .replaceAll("\\[", "\\\\[")
+                .replaceAll("\\{", "\\{")
+                .replaceAll("\\^", "\\\\^")
+                .replaceAll("-", "\\-")
+                .replaceAll("=", "\\=")
+                .replaceAll("\\$", "\\\\$")
+                .replaceAll("!", "\\!")
+                .replaceAll("\\|", "\\\\|")
+                .replaceAll("\\?", "\\\\?")
+                .replaceAll("\\*", "\\\\*")
+                ;
+    }
+
+
+
 }
+
