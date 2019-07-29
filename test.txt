@@ -1,0 +1,792 @@
+Car: Begin: 0
+Car: Now we have 0 books!
+Car: Now we have 1 books!
+Car: Now we have 2 books!
+Car: Now we have 3 books!
+Car: Now we have 4 books!
+Car: Now we have 5 books!
+Car: Now we have 6 books!
+Car: Now we have 7 books!
+Car: Now we have 8 books!
+Car: End. 9
+Car: Begin: 0
+Car: Now we have 0 books!
+Car: Now we have 1 books!
+Car: Now we have 2 books!
+Car: Now we have 3 books!
+Car: Now we have 4 books!
+Car: Now we have 5 books!
+Car: Now we have 6 books!
+Car: Now we have 7 books!
+Car: Now we have 8 books!
+Car: End. 9
+Thread1: Begin: 0
+Thread0: Begin: 0
+Thread2: Begin: 0
+Thread3: Begin: 0
+Thread4: Begin: 0
+Thread5: Begin: 0
+Thread6: Begin: 0
+Thread7: Begin: 0
+Thread8: Begin: 0
+Thread9: Begin: 0
+Thread10: Begin: 0
+Thread11: Begin: 0
+Thread12: Begin: 0
+Thread13: Begin: 0
+Thread14: Begin: 0
+Thread15: Begin: 0
+Thread16: Begin: 0
+Thread17: Begin: 0
+Thread18: Begin: 0
+Thread19: Begin: 0
+Thread11: Now we have 0 books!
+Thread17: Now we have 0 books!
+Thread2: Now we have 0 books!
+Thread19: Now we have 0 books!
+Thread15: Now we have 0 books!
+Thread18: Now we have 0 books!
+Thread8: Now we have 0 books!
+Thread1: Now we have 0 books!
+Thread0: Now we have 0 books!
+Thread4: Now we have 0 books!
+Thread14: Now we have 0 books!
+Thread10: Now we have 0 books!
+Thread7: Now we have 0 books!
+Thread13: Now we have 0 books!
+Thread16: Now we have 0 books!
+Thread12: Now we have 0 books!
+Thread9: Now we have 0 books!
+Thread6: Now we have 0 books!
+Thread3: Now we have 0 books!
+Thread5: Now we have 0 books!
+Thread7: Now we have 1 books!
+Thread13: Now we have 1 books!
+Thread5: Now we have 1 books!
+Thread9: Now we have 1 books!
+Thread0: Now we have 1 books!
+Thread6: Now we have 1 books!
+Thread16: Now we have 1 books!
+Thread4: Now we have 1 books!
+Thread19: Now we have 1 books!
+Thread15: Now we have 1 books!
+Thread3: Now we have 1 books!
+Thread10: Now we have 1 books!
+Thread14: Now we have 1 books!
+Thread18: Now we have 1 books!
+Thread2: Now we have 1 books!
+Thread12: Now we have 1 books!
+Thread11: Now we have 1 books!
+Thread17: Now we have 1 books!
+Thread8: Now we have 1 books!
+Thread1: Now we have 1 books!
+Thread17: Now we have 2 books!
+Thread6: Now we have 2 books!
+Thread9: Now we have 2 books!
+Thread16: Now we have 2 books!
+Thread2: Now we have 2 books!
+Thread1: Now we have 2 books!
+Thread8: Now we have 2 books!
+Thread10: Now we have 2 books!
+Thread18: Now we have 2 books!
+Thread12: Now we have 2 books!
+Thread3: Now we have 2 books!
+Thread11: Now we have 2 books!
+Thread14: Now we have 2 books!
+Thread15: Now we have 2 books!
+Thread0: Now we have 2 books!
+Thread19: Now we have 2 books!
+Thread5: Now we have 2 books!
+Thread4: Now we have 2 books!
+Thread13: Now we have 2 books!
+Thread7: Now we have 2 books!
+Thread8: Now we have 3 books!
+Thread7: Now we have 3 books!
+Thread0: Now we have 3 books!
+Thread11: Now we have 3 books!
+Thread12: Now we have 3 books!
+Thread19: Now we have 3 books!
+Thread13: Now we have 3 books!
+Thread15: Now we have 3 books!
+Thread3: Now we have 3 books!
+Thread14: Now we have 3 books!
+Thread5: Now we have 3 books!
+Thread18: Now we have 3 books!
+Thread4: Now we have 3 books!
+Thread2: Now we have 3 books!
+Thread1: Now we have 3 books!
+Thread6: Now we have 3 books!
+Thread16: Now we have 3 books!
+Thread10: Now we have 3 books!
+Thread9: Now we have 3 books!
+Thread17: Now we have 3 books!
+Thread10: Now we have 4 books!
+Thread2: Now we have 4 books!
+Thread3: Now we have 4 books!
+Thread9: Now we have 4 books!
+Thread17: Now we have 4 books!
+Thread0: Now we have 4 books!
+Thread4: Now we have 4 books!
+Thread18: Now we have 4 books!
+Thread6: Now we have 4 books!
+Thread14: Now we have 4 books!
+Thread16: Now we have 4 books!
+Thread15: Now we have 4 books!
+Thread1: Now we have 4 books!
+Thread11: Now we have 4 books!
+Thread19: Now we have 4 books!
+Thread12: Now we have 4 books!
+Thread13: Now we have 4 books!
+Thread8: Now we have 4 books!
+Thread7: Now we have 4 books!
+Thread5: Now we have 4 books!
+Thread5: Now we have 5 books!
+Thread13: Now we have 5 books!
+Thread7: Now we have 5 books!
+Thread8: Now we have 5 books!
+Thread12: Now we have 5 books!
+Thread14: Now we have 5 books!
+Thread10: Now we have 5 books!
+Thread1: Now we have 5 books!
+Thread16: Now we have 5 books!
+Thread4: Now we have 5 books!
+Thread9: Now we have 5 books!
+Thread0: Now we have 5 books!
+Thread11: Now we have 5 books!
+Thread17: Now we have 5 books!
+Thread19: Now we have 5 books!
+Thread18: Now we have 5 books!
+Thread15: Now we have 5 books!
+Thread6: Now we have 5 books!
+Thread3: Now we have 5 books!
+Thread2: Now we have 5 books!
+Thread13: Now we have 6 books!
+Thread15: Now we have 6 books!
+Thread6: Now we have 6 books!
+Thread16: Now we have 6 books!
+Thread2: Now we have 6 books!
+Thread5: Now we have 6 books!
+Thread18: Now we have 6 books!
+Thread19: Now we have 6 books!
+Thread3: Now we have 6 books!
+Thread17: Now we have 6 books!
+Thread0: Now we have 6 books!
+Thread10: Now we have 6 books!
+Thread9: Now we have 6 books!
+Thread4: Now we have 6 books!
+Thread1: Now we have 6 books!
+Thread14: Now we have 6 books!
+Thread12: Now we have 6 books!
+Thread8: Now we have 6 books!
+Thread11: Now we have 6 books!
+Thread7: Now we have 6 books!
+Thread17: Now we have 7 books!
+Thread4: Now we have 7 books!
+Thread14: Now we have 7 books!
+Thread5: Now we have 7 books!
+Thread10: Now we have 7 books!
+Thread2: Now we have 7 books!
+Thread7: Now we have 7 books!
+Thread3: Now we have 7 books!
+Thread13: Now we have 7 books!
+Thread18: Now we have 7 books!
+Thread6: Now we have 7 books!
+Thread19: Now we have 7 books!
+Thread11: Now we have 7 books!
+Thread15: Now we have 7 books!
+Thread12: Now we have 7 books!
+Thread8: Now we have 7 books!
+Thread9: Now we have 7 books!
+Thread1: Now we have 7 books!
+Thread0: Now we have 7 books!
+Thread16: Now we have 7 books!
+Thread19: Now we have 8 books!
+Thread16: Now we have 8 books!
+Thread15: Now we have 8 books!
+Thread8: Now we have 8 books!
+Thread13: Now we have 8 books!
+Thread1: Now we have 8 books!
+Thread0: Now we have 8 books!
+Thread9: Now we have 8 books!
+Thread18: Now we have 8 books!
+Thread12: Now we have 8 books!
+Thread5: Now we have 8 books!
+Thread3: Now we have 8 books!
+Thread7: Now we have 8 books!
+Thread4: Now we have 8 books!
+Thread6: Now we have 8 books!
+Thread2: Now we have 8 books!
+Thread14: Now we have 8 books!
+Thread10: Now we have 8 books!
+Thread17: Now we have 8 books!
+Thread11: Now we have 8 books!
+Thread0: End. 9
+Thread11: End. 9
+Thread17: End. 9
+Thread2: End. 9
+Thread12: End. 9
+Thread10: End. 9
+Thread18: End. 9
+Thread14: End. 9
+Thread6: End. 9
+Thread5: End. 9
+Thread7: End. 9
+Thread3: End. 9
+Thread9: End. 9
+Thread4: End. 9
+Thread19: End. 9
+Thread15: End. 9
+Thread1: End. 9
+Thread8: End. 9
+Thread13: End. 9
+Thread16: End. 9
+Thread8: Begin: 0
+Thread11: Begin: 0
+Thread3: Begin: 0
+Thread6: Begin: 0
+Thread8: Now we have 0 books!
+Thread12: Begin: 0
+Thread6: Now we have 0 books!
+Thread6: Now we have 1 books!
+Thread5: Begin: 0
+Thread15: Begin: 0
+Thread7: Begin: 0
+Thread13: Begin: 0
+Thread12: Now we have 0 books!
+Thread8: Now we have 1 books!
+Thread19: Begin: 0
+Thread18: Begin: 0
+Thread2: Begin: 0
+Thread9: Begin: 0
+Thread4: Begin: 0
+Thread16: Begin: 0
+Thread0: Begin: 0
+Thread10: Begin: 0
+Thread17: Begin: 0
+Thread11: Now we have 0 books!
+Thread6: Now we have 2 books!
+Thread3: Now we have 0 books!
+Thread19: Now we have 0 books!
+Thread14: Begin: 0
+Thread1: Begin: 0
+Thread8: Now we have 2 books!
+Thread8: Now we have 3 books!
+Thread11: Now we have 1 books!
+Thread12: Now we have 1 books!
+Thread3: Now we have 1 books!
+Thread11: Now we have 2 books!
+Thread3: Now we have 2 books!
+Thread6: Now we have 3 books!
+Thread18: Now we have 0 books!
+Thread7: Now we have 0 books!
+Thread12: Now we have 2 books!
+Thread5: Now we have 0 books!
+Thread17: Now we have 0 books!
+Thread4: Now we have 0 books!
+Thread16: Now we have 0 books!
+Thread15: Now we have 0 books!
+Thread7: Now we have 1 books!
+Thread13: Now we have 0 books!
+Thread18: Now we have 1 books!
+Thread19: Now we have 1 books!
+Thread2: Now we have 0 books!
+Thread10: Now we have 0 books!
+Thread2: Now we have 1 books!
+Thread8: Now we have 4 books!
+Thread4: Now we have 1 books!
+Thread9: Now we have 0 books!
+Thread9: Now we have 1 books!
+Thread0: Now we have 0 books!
+Thread19: Now we have 2 books!
+Thread5: Now we have 1 books!
+Thread3: Now we have 3 books!
+Thread14: Now we have 0 books!
+Thread1: Now we have 0 books!
+Thread6: Now we have 4 books!
+Thread12: Now we have 3 books!
+Thread11: Now we have 3 books!
+Thread17: Now we have 1 books!
+Thread19: Now we have 3 books!
+Thread19: Now we have 4 books!
+Thread6: Now we have 5 books!
+Thread9: Now we have 2 books!
+Thread16: Now we have 1 books!
+Thread19: Now we have 5 books!
+Thread8: Now we have 5 books!
+Thread3: Now we have 4 books!
+Thread19: Now we have 6 books!
+Thread7: Now we have 2 books!
+Thread10: Now we have 1 books!
+Thread2: Now we have 2 books!
+Thread18: Now we have 2 books!
+Thread4: Now we have 2 books!
+Thread13: Now we have 1 books!
+Thread9: Now we have 3 books!
+Thread15: Now we have 1 books!
+Thread5: Now we have 2 books!
+Thread2: Now we have 3 books!
+Thread18: Now we have 3 books!
+Thread17: Now we have 2 books!
+Thread0: Now we have 1 books!
+Thread6: Now we have 6 books!
+Thread10: Now we have 2 books!
+Thread11: Now we have 4 books!
+Thread14: Now we have 1 books!
+Thread8: Now we have 6 books!
+Thread3: Now we have 5 books!
+Thread11: Now we have 5 books!
+Thread12: Now we have 4 books!
+Thread13: Now we have 2 books!
+Thread0: Now we have 2 books!
+Thread3: Now we have 6 books!
+Thread1: Now we have 1 books!
+Thread2: Now we have 4 books!
+Thread9: Now we have 4 books!
+Thread15: Now we have 2 books!
+Thread19: Now we have 7 books!
+Thread19: Now we have 8 books!
+Thread18: Now we have 4 books!
+Thread16: Now we have 2 books!
+Thread16: Now we have 3 books!
+Thread11: Now we have 6 books!
+Thread18: Now we have 5 books!
+Thread4: Now we have 3 books!
+Thread7: Now we have 3 books!
+Thread11: Now we have 7 books!
+Thread4: Now we have 4 books!
+Thread17: Now we have 3 books!
+Thread5: Now we have 3 books!
+Thread6: Now we have 7 books!
+Thread0: Now we have 3 books!
+Thread7: Now we have 4 books!
+Thread16: Now we have 4 books!
+Thread10: Now we have 3 books!
+Thread13: Now we have 3 books!
+Thread10: Now we have 4 books!
+Thread9: Now we have 5 books!
+Thread4: Now we have 5 books!
+Thread14: Now we have 2 books!
+Thread8: Now we have 7 books!
+Thread19: End. 9
+Thread0: Now we have 4 books!
+Thread9: Now we have 6 books!
+Thread15: Now we have 3 books!
+Thread1: Now we have 2 books!
+Thread5: Now we have 4 books!
+Thread12: Now we have 5 books!
+Thread13: Now we have 4 books!
+Thread16: Now we have 5 books!
+Thread11: Now we have 8 books!
+Thread2: Now we have 5 books!
+Thread15: Now we have 4 books!
+Thread18: Now we have 6 books!
+Thread3: Now we have 7 books!
+Thread5: Now we have 5 books!
+Thread4: Now we have 6 books!
+Thread3: Now we have 8 books!
+Thread13: Now we have 5 books!
+Thread8: Now we have 8 books!
+Thread3: End. 9
+Thread4: Now we have 7 books!
+Thread5: Now we have 6 books!
+Thread11: End. 9
+Thread9: Now we have 7 books!
+Thread8: End. 9
+Thread17: Now we have 4 books!
+Thread16: Now we have 6 books!
+Thread2: Now we have 6 books!
+Thread7: Now we have 5 books!
+Thread0: Now we have 5 books!
+Thread6: Now we have 8 books!
+Thread10: Now we have 5 books!
+Thread17: Now we have 5 books!
+Thread6: End. 9
+Thread14: Now we have 3 books!
+Thread1: Now we have 3 books!
+Thread4: Now we have 8 books!
+Thread12: Now we have 6 books!
+Thread15: Now we have 5 books!
+Thread7: Now we have 6 books!
+Thread12: Now we have 7 books!
+Thread12: Now we have 8 books!
+Thread1: Now we have 4 books!
+Thread0: Now we have 6 books!
+Thread17: Now we have 6 books!
+Thread4: End. 9
+Thread9: Now we have 8 books!
+Thread1: Now we have 5 books!
+Thread18: Now we have 7 books!
+Thread17: Now we have 7 books!
+Thread13: Now we have 6 books!
+Thread0: Now we have 7 books!
+Thread9: End. 9
+Thread18: Now we have 8 books!
+Thread5: Now we have 7 books!
+Thread14: Now we have 4 books!
+Thread7: Now we have 7 books!
+Thread10: Now we have 6 books!
+Thread7: Now we have 8 books!
+Thread16: Now we have 7 books!
+Thread2: Now we have 7 books!
+Thread13: Now we have 7 books!
+Thread17: Now we have 8 books!
+Thread12: End. 9
+Thread5: Now we have 8 books!
+Thread2: Now we have 8 books!
+Thread15: Now we have 6 books!
+Thread14: Now we have 5 books!
+Thread10: Now we have 7 books!
+Thread1: Now we have 6 books!
+Thread18: End. 9
+Thread5: End. 9
+Thread0: Now we have 8 books!
+Thread7: End. 9
+Thread15: Now we have 7 books!
+Thread2: End. 9
+Thread0: End. 9
+Thread10: Now we have 8 books!
+Thread13: Now we have 8 books!
+Thread16: Now we have 8 books!
+Thread17: End. 9
+Thread14: Now we have 6 books!
+Thread13: End. 9
+Thread16: End. 9
+Thread15: Now we have 8 books!
+Thread1: Now we have 7 books!
+Thread10: End. 9
+Thread14: Now we have 7 books!
+Thread15: End. 9
+Thread1: Now we have 8 books!
+Thread1: End. 9
+Thread14: Now we have 8 books!
+Thread14: End. 9
+Thread15: Begin: 0
+Thread0: Begin: 0
+Thread13: Begin: 0
+Thread2: Begin: 0
+Thread14: Begin: 0
+Thread1: Begin: 0
+Thread4: Begin: 0
+Thread5: Begin: 0
+Thread2: Now we have 0 books!
+Thread9: Begin: 0
+Thread16: Begin: 0
+Thread4: Now we have 0 books!
+Thread19: Begin: 0
+Thread14: Now we have 0 books!
+Thread17: Begin: 0
+Thread8: Begin: 0
+Thread13: Now we have 0 books!
+Thread0: Now we have 0 books!
+Thread7: Begin: 0
+Thread2: Now we have 1 books!
+Thread6: Begin: 0
+Thread3: Begin: 0
+Thread9: Now we have 0 books!
+Thread15: Now we have 0 books!
+Thread1: Now we have 0 books!
+Thread11: Begin: 0
+Thread10: Begin: 0
+Thread5: Now we have 0 books!
+Thread5: Now we have 1 books!
+Thread2: Now we have 2 books!
+Thread18: Begin: 0
+Thread19: Now we have 0 books!
+Thread8: Now we have 0 books!
+Thread12: Begin: 0
+Thread18: Now we have 0 books!
+Thread17: Now we have 0 books!
+Thread16: Now we have 0 books!
+Thread2: Now we have 3 books!
+Thread14: Now we have 1 books!
+Thread4: Now we have 1 books!
+Thread9: Now we have 1 books!
+Thread15: Now we have 1 books!
+Thread6: Now we have 0 books!
+Thread13: Now we have 1 books!
+Thread7: Now we have 0 books!
+Thread1: Now we have 1 books!
+Thread8: Now we have 1 books!
+Thread11: Now we have 0 books!
+Thread18: Now we have 1 books!
+Thread5: Now we have 2 books!
+Thread9: Now we have 2 books!
+Thread5: Now we have 3 books!
+Thread12: Now we have 0 books!
+Thread19: Now we have 1 books!
+Thread3: Now we have 0 books!
+Thread16: Now we have 1 books!
+Thread18: Now we have 2 books!
+Thread0: Now we have 1 books!
+Thread6: Now we have 1 books!
+Thread14: Now we have 2 books!
+Thread1: Now we have 2 books!
+Thread11: Now we have 1 books!
+Thread10: Now we have 0 books!
+Thread9: Now we have 3 books!
+Thread2: Now we have 4 books!
+Thread16: Now we have 2 books!
+Thread17: Now we have 1 books!
+Thread13: Now we have 2 books!
+Thread19: Now we have 2 books!
+Thread8: Now we have 2 books!
+Thread17: Now we have 2 books!
+Thread3: Now we have 1 books!
+Thread14: Now we have 3 books!
+Thread2: Now we have 5 books!
+Thread5: Now we have 4 books!
+Thread4: Now we have 2 books!
+Thread7: Now we have 1 books!
+Thread15: Now we have 2 books!
+Thread16: Now we have 3 books!
+Thread7: Now we have 2 books!
+Thread2: Now we have 6 books!
+Thread1: Now we have 3 books!
+Thread6: Now we have 2 books!
+Thread10: Now we have 1 books!
+Thread0: Now we have 2 books!
+Thread11: Now we have 2 books!
+Thread12: Now we have 1 books!
+Thread9: Now we have 4 books!
+Thread7: Now we have 3 books!
+Thread5: Now we have 5 books!
+Thread8: Now we have 3 books!
+Thread18: Now we have 3 books!
+Thread4: Now we have 3 books!
+Thread13: Now we have 3 books!
+Thread12: Now we have 2 books!
+Thread0: Now we have 3 books!
+Thread10: Now we have 2 books!
+Thread5: Now we have 6 books!
+Thread16: Now we have 4 books!
+Thread11: Now we have 3 books!
+Thread15: Now we have 3 books!
+Thread12: Now we have 3 books!
+Thread19: Now we have 3 books!
+Thread12: Now we have 4 books!
+Thread8: Now we have 4 books!
+Thread6: Now we have 3 books!
+Thread5: Now we have 7 books!
+Thread17: Now we have 3 books!
+Thread3: Now we have 2 books!
+Thread2: Now we have 7 books!
+Thread8: Now we have 5 books!
+Thread14: Now we have 4 books!
+Thread0: Now we have 4 books!
+Thread19: Now we have 4 books!
+Thread1: Now we have 4 books!
+Thread15: Now we have 4 books!
+Thread17: Now we have 4 books!
+Thread8: Now we have 6 books!
+Thread9: Now we have 5 books!
+Thread7: Now we have 4 books!
+Thread15: Now we have 5 books!
+Thread10: Now we have 3 books!
+Thread7: Now we have 5 books!
+Thread19: Now we have 5 books!
+Thread6: Now we have 4 books!
+Thread4: Now we have 4 books!
+Thread13: Now we have 4 books!
+Thread18: Now we have 4 books!
+Thread0: Now we have 5 books!
+Thread11: Now we have 4 books!
+Thread8: Now we have 7 books!
+Thread6: Now we have 5 books!
+Thread13: Now we have 5 books!
+Thread10: Now we have 4 books!
+Thread12: Now we have 5 books!
+Thread4: Now we have 5 books!
+Thread0: Now we have 6 books!
+Thread7: Now we have 6 books!
+Thread4: Now we have 6 books!
+Thread15: Now we have 6 books!
+Thread16: Now we have 5 books!
+Thread14: Now we have 5 books!
+Thread3: Now we have 3 books!
+Thread5: Now we have 8 books!
+Thread10: Now we have 5 books!
+Thread13: Now we have 6 books!
+Thread17: Now we have 5 books!
+Thread7: Now we have 7 books!
+Thread18: Now we have 5 books!
+Thread6: Now we have 6 books!
+Thread0: Now we have 7 books!
+Thread10: Now we have 6 books!
+Thread2: Now we have 8 books!
+Thread9: Now we have 6 books!
+Thread1: Now we have 5 books!
+Thread11: Now we have 5 books!
+Thread12: Now we have 6 books!
+Thread12: Now we have 7 books!
+Thread16: Now we have 6 books!
+Thread8: Now we have 8 books!
+Thread19: Now we have 6 books!
+Thread13: Now we have 7 books!
+Thread15: Now we have 7 books!
+Thread14: Now we have 6 books!
+Thread7: Now we have 8 books!
+Thread13: Now we have 8 books!
+Thread11: Now we have 6 books!
+Thread9: Now we have 7 books!
+Thread4: Now we have 7 books!
+Thread17: Now we have 6 books!
+Thread9: Now we have 8 books!
+Thread18: Now we have 6 books!
+Thread5: End. 9
+Thread3: Now we have 4 books!
+Thread12: Now we have 8 books!
+Thread2: End. 9
+Thread17: Now we have 7 books!
+Thread1: Now we have 6 books!
+Thread6: Now we have 7 books!
+Thread10: Now we have 7 books!
+Thread0: Now we have 8 books!
+Thread16: Now we have 7 books!
+Thread7: End. 9
+Thread13: End. 9
+Thread9: End. 9
+Thread8: End. 9
+Thread19: Now we have 7 books!
+Thread11: Now we have 7 books!
+Thread17: Now we have 8 books!
+Thread19: Now we have 8 books!
+Thread11: Now we have 8 books!
+Thread15: Now we have 8 books!
+Thread19: End. 9
+Thread10: Now we have 8 books!
+Thread16: Now we have 8 books!
+Thread4: Now we have 8 books!
+Thread12: End. 9
+Thread18: Now we have 7 books!
+Thread4: End. 9
+Thread3: Now we have 5 books!
+Thread14: Now we have 7 books!
+Thread6: Now we have 8 books!
+Thread0: End. 9
+Thread3: Now we have 6 books!
+Thread15: End. 9
+Thread18: Now we have 8 books!
+Thread1: Now we have 7 books!
+Thread17: End. 9
+Thread3: Now we have 7 books!
+Thread6: End. 9
+Thread16: End. 9
+Thread11: End. 9
+Thread3: Now we have 8 books!
+Thread10: End. 9
+Thread14: Now we have 8 books!
+Thread18: End. 9
+Thread1: Now we have 8 books!
+Thread3: End. 9
+Thread1: End. 9
+Thread14: End. 9
+                        Thread6: Begin: 0
+Thread6: Now we have 0 books!
+Thread6: Now we have 1 books!
+                Thread4: Begin: 0
+                                Thread8: Begin: 0
+Thread6: Now we have 2 books!
+    Thread1: Begin: 0
+                    Thread5: Begin: 0
+Thread6: Now we have 3 books!
+                                    Thread9: Begin: 0
+        Thread2: Begin: 0
+            Thread3: Begin: 0
+Thread0: Begin: 0
+                            Thread7: Begin: 0
+Thread4: Now we have 0 books!
+Thread8: Now we have 0 books!
+Thread5: Now we have 0 books!
+Thread1: Now we have 0 books!
+Thread9: Now we have 0 books!
+Thread3: Now we have 0 books!
+Thread6: Now we have 4 books!
+Thread3: Now we have 1 books!
+Thread2: Now we have 0 books!
+Thread8: Now we have 1 books!
+Thread0: Now we have 0 books!
+Thread5: Now we have 1 books!
+Thread3: Now we have 2 books!
+Thread9: Now we have 1 books!
+Thread7: Now we have 0 books!
+Thread1: Now we have 1 books!
+Thread9: Now we have 2 books!
+Thread4: Now we have 1 books!
+Thread5: Now we have 2 books!
+Thread4: Now we have 2 books!
+Thread6: Now we have 5 books!
+Thread2: Now we have 1 books!
+Thread7: Now we have 1 books!
+Thread3: Now we have 3 books!
+Thread8: Now we have 2 books!
+Thread0: Now we have 1 books!
+Thread7: Now we have 2 books!
+Thread9: Now we have 3 books!
+Thread4: Now we have 3 books!
+Thread2: Now we have 2 books!
+Thread6: Now we have 6 books!
+Thread5: Now we have 3 books!
+Thread1: Now we have 2 books!
+Thread3: Now we have 4 books!
+Thread1: Now we have 3 books!
+Thread2: Now we have 3 books!
+Thread2: Now we have 4 books!
+Thread7: Now we have 3 books!
+Thread8: Now we have 3 books!
+Thread6: Now we have 7 books!
+Thread7: Now we have 4 books!
+Thread0: Now we have 2 books!
+Thread3: Now we have 5 books!
+Thread9: Now we have 4 books!
+Thread3: Now we have 6 books!
+Thread4: Now we have 4 books!
+Thread6: Now we have 8 books!
+Thread9: Now we have 5 books!
+Thread5: Now we have 4 books!
+Thread8: Now we have 4 books!
+Thread1: Now we have 4 books!
+Thread7: Now we have 5 books!
+Thread9: Now we have 6 books!
+Thread1: Now we have 5 books!
+Thread0: Now we have 3 books!
+Thread2: Now we have 5 books!
+Thread9: Now we have 7 books!
+Thread4: Now we have 5 books!
+Thread6: End. 9
+Thread1: Now we have 6 books!
+Thread1: Now we have 7 books!
+Thread2: Now we have 6 books!
+Thread8: Now we have 5 books!
+Thread7: Now we have 6 books!
+Thread3: Now we have 7 books!
+Thread5: Now we have 5 books!
+Thread8: Now we have 6 books!
+Thread0: Now we have 4 books!
+Thread8: Now we have 7 books!
+Thread4: Now we have 6 books!
+Thread9: Now we have 8 books!
+Thread1: Now we have 8 books!
+Thread7: Now we have 7 books!
+Thread1: End. 9
+Thread3: Now we have 8 books!
+Thread0: Now we have 5 books!
+Thread5: Now we have 6 books!
+Thread9: End. 9
+Thread2: Now we have 7 books!
+Thread8: Now we have 8 books!
+Thread5: Now we have 7 books!
+Thread2: Now we have 8 books!
+Thread0: Now we have 6 books!
+Thread5: Now we have 8 books!
+Thread4: Now we have 7 books!
+Thread7: Now we have 8 books!
+Thread3: End. 9
+Thread0: Now we have 7 books!
+Thread0: Now we have 8 books!
+Thread4: Now we have 8 books!
+Thread2: End. 9
+Thread8: End. 9
+Thread5: End. 9
+Thread7: End. 9
+Thread0: End. 9
+Thread4: End. 9

@@ -51,6 +51,12 @@ dependencies {
     // swagger
     compile("io.springfox:springfox-swagger2:2.9.1")
     compile("io.springfox:springfox-swagger-ui:2.9.1")
+    // junit 5
+    testImplementation('org.junit.jupiter:junit-jupiter-api')
+    testCompile('org.junit.jupiter:junit-jupiter-params')
+    testRuntime('org.junit.jupiter:junit-jupiter-engine')
+    testCompile('org.mockito:mockito-core')
+    testCompile('org.mockito:mockito-junit-jupiter')
     // for @Slf4j to work, you have to add LogBack; 1.2.3 is very recent versions as 2019
     // when we use spring boot, not need to add these lines; only needed when is standard Java project
     //compile 'org.slf4j:slf4j-api:1.7.25'
